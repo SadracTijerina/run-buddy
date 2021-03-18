@@ -9,8 +9,9 @@
   <body>
     <!-- navigation -->
     <header>
-      <h1 href="/">RUN BUDDY</h1>
-
+      <h1>
+        <a href="/"> RUN BUDDY </a>
+      </h1>
       <nav>
         <!-- Unordered list element -->
         <ul>
@@ -39,7 +40,6 @@
         <p>
           Fill out this form and one of our trainers will schedule a consult
         </p>
-        <!-- Add form element -->
         <form>
           <label for="name">Enter full name:</label>
           <input
@@ -51,7 +51,7 @@
           />
           <label for="email">Enter email address:</label>
           <input
-            type="email"
+            type="text"
             placeholder="Email Address"
             name="email"
             id="email"
@@ -59,7 +59,7 @@
           />
           <label for="phone">Enter a telephone number:</label>
           <input
-            type="tel"
+            type="text"
             placeholder="Phone Number"
             name="phone"
             id="phone"
@@ -76,7 +76,7 @@
             <label for="checkbox">
               I acknowledge that I am at least 18 years of age.
             </label>
-            <input type="checkbox" name="age-confirm" id="checkbox" />
+            <input type="checkbox" name="checkpoint1" id="checkbox" />
           </p>
           <button type="submit">Get running!</button>
         </form>
@@ -85,7 +85,7 @@
 
     <!-- "what we do" section -->
     <section id="what-we-do" class="intro">
-      <h2 class="section-title secondary-border">What We Do</h2>
+      <h2 class="section-title primary-border">What We Do</h2>
       <p>
         butcher selfies chambray shabby chic gentrify readymade yr Echo Park
         XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you
@@ -131,8 +131,6 @@
     <!-- "meet the trainers" section -->
     <section id="your-trainers" class="trainers">
       <h2 class="section-title primary-border">Meet The Trainers</h2>
-
-      <!-- first trainer bio-->
       <article class="trainer">
         <img
           src="./assets/images/trainer-1.jpg"
@@ -188,18 +186,16 @@
     </section>
 
     <!-- "reach out" section -->
-    <section id="reach-out" class ="contact">
-      <h2 class="section-title">Reach Out</h2>
-
+    <section id="reach-out" class="contact">
+      <h2 class="section-title secondary-border">Reach Out</h2>
       <div class="contact-info">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.17559003753!2d-97.1080971843785!3d32.734527880984935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7d70fb0b26b3%3A0x79b416edd8c856a4!2s328%20S%20Mesquite%20St%2C%20Arlington%2C%20TX%2076010!5e0!3m2!1sen!2sus!4v1616020124831!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
+          frameborder="0"
           style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
+          allowfullscreen
         >
         </iframe>
-
         <div>
           <h3>Run Buddy</h3>
           <p>
@@ -222,8 +218,7 @@
     <footer>
       <h2>❤️ Made with love by Run Buddy.</h2>
       <div>
-        <a href="#">Read Our Privacy Policy</a>
-        <br />
+        <a href="#">Read Our Privacy Policy</a><br />
         &copy; 2019 Run Buddy, Inc.
       </div>
     </footer>
